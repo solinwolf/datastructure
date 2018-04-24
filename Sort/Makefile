@@ -1,5 +1,5 @@
 all:
-	gcc -o main *.c *.h
+	gcc -o main main.c List.c List.h
 .PHONY:clean
 clean:
 	rm main
