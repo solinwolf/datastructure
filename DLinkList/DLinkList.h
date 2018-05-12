@@ -15,7 +15,7 @@ DLinkListNode* getElement(DLinkList* dlinklist, int pos);
 int  insertElement(DLinkList* dlinklist, DLinkListNode* node, int pos);
 DLinkListNode* deleteElement(DLinkList* dlinklist, int pos);
 int getLength(DLinkList* dlinklist);
-
+Status GetElem(StaticLinklist SLL,int pos,Elemtype *ret);
 #endif
 
 
